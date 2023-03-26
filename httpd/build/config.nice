@@ -1,0 +1,21 @@
+#! /bin/sh
+#
+# Created by configure
+
+"./configure" \
+"--prefix=/opt/httpd/" \
+"--with-mpm=worker" \
+"--enable-proxy" \
+"--enable-proxy-connect" \
+"--enable-proxy-http" \
+"--enable-proxy-ajp" \
+"--enable-proxy-balancer" \
+"--enable-ssl" \
+"--with-ssl=/usr/bin/openssl" \
+"--with-included-apr" \
+"--with-pcre=/opt/apache/srclib/pcre/pcre2-config" \
+"--enable-so" \
+"--enable-rewrite" \
+"--enable-cache" \
+"--enable-mem-cache" \
+"$@"

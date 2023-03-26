@@ -1,0 +1,2 @@
+[Sun Mar 26 02:46:01.553645 2023] [mpm_worker:notice] [pid 58048:tid 140166690916224] AH00292: Apache/2.4.56 (Unix) configured -- resuming normal operations
+[Sun Mar 26 02:46:01.553746 2023] [core:notice] [pid 58048:tid 140166690916224] AH00094: Command line: '/opt/httpd//bin/httpd'
